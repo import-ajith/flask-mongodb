@@ -4,7 +4,7 @@ from bson.json_util import dumps
 
 
 app = Flask(__name__)
-client = pymongo.MongoClient("mongodb+srv://ajith:123test@cluster0-b0lyy.mongodb.net/demo")
+client = pymongo.MongoClient("mongodb+srv://ajith:*****@cluster0-b0lyy.mongodb.net/demo")
 db = client.demo
 
 @app.route('/')
